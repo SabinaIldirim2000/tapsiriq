@@ -1,0 +1,57 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .dealers {
+  display: flex;
+  gap: 20px;
+  font-family: Rubik;
+}
+header .container .dealers h3 {
+  color: black;
+  size: 16px;
+}
+header .container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container .navbar ul {
+  list-style-type: none;
+  gap: 20px;
+  display: flex;
+}
+header .container .navbar ul li a {
+  text-decoration: none;
+  gap: 20px;
+  display: flex;
+  color: black;
+}
+header .container .navbar ul li p {
+  color: rgb(32, 125, 255);
+}
+header .container .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#madewell .madewell2 img {
+  width: 100%;
+  margin: auto;
+}
